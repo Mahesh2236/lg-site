@@ -1,0 +1,50 @@
+﻿@font-face {
+    font-family: "flaticon";
+    src: url("flaticon-1.ttf") format("truetype"),
+url("flaticon-1.woff") format("woff"),
+url("flaticon-1.woff2") format("woff2"),
+url("flaticon-1.eot") format("embedded-opentype"),
+url("flaticon-1.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    /* line-height: 1; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-loupe:before {
+    content: "\f101";
+}
+.flaticon-plus:before {
+    content: "\f102";
+}
+.flaticon-architect:before {
+    content: "\f103";
+}
+.flaticon-project:before {
+    content: "\f104";
+}
+.flaticon-repair-tools:before {
+    content: "\f105";
+}
+.flaticon-construction:before {
+    content: "\f106";
+}
+.flaticon-oil-pump:before {
+    content: "\f107";
+}
+.flaticon-hook:before {
+    content: "\f108";
+}
+.flaticon-home:before {
+    content: "\f109";
+}
+.flaticon-play-button:before {
+    content: "\f10a";
+}
