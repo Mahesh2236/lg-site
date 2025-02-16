@@ -1,4 +1,4 @@
-﻿:root{
+:root{
   --orange: #FFA500; 
   --deep-blue: #000000;
   --grey: #606060;
@@ -1765,26 +1765,77 @@ padding-left: 10px;
 .service-page.detail{
   padding-bottom: 90px;
 }
+
+
+
+
+
+
+
 .service-page.detail .image img{
   width: 100%;
 }
+
 .service-page.detail .text{
+  color: #000000;
   padding-right: 50px;
 }
+
 .service-page.detail .text h5{
-  font-weight: 700;
-  padding: 20px 0;
+  font-weight: 00;
+  padding-top:20px ;
+}
+.service-page.detail .bullet{
+  padding-bottom:5px;
 }
 .service-page.detail .text p{
-  padding-bottom: 20px;
+  padding-bottom:10px;
+  padding-right:2px;
 }
+/* -------------------------- */
+.service-page.detail .bullet .bullet-2 h5{
+  font-weight: 700;
+  padding-top:none ;
+}
+.service-page.detail ul{
+  list-style: none;
+  padding: 0;
+}
+.service-page.detail ul.li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.service-page.detail .bu::before {
+  content: "•"; 
+  color: #000000;  
+  font-size: 24px; 
+  margin-right: 10px;
+}
+.service-page.detail .bullet{
+margin-right:350px; /* Moves the container slightly to the right */
+}
+.service-page.detail .bullet-2{
+  margin-right:350px;
+  width:500px;  
+  }
+
+/* ------------------------- */
 .service-page.detail .text .img{
-  float: left;
+  float: right;
   margin-right: 30px;
   margin-bottom: 30px;
+ 
+  
 }
-.service-page.detail .right-part .title{
+.service-page.detail .right-part{
   padding-bottom: 30px;
+}
+.service-page.detail .title{
+  padding-bottom:30px;
+
 }
 .service-page.detail .right-part .title h5{
   font-weight: 700;
