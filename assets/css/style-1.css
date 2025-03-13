@@ -1968,9 +1968,45 @@ margin-right:350px; /* Moves the container slightly to the right */
   -o-border-radius: 50%;
   background: var(--orange);
 }
+
+
 /*================================================
 15: about page css Style
 ==================================================*/
 .about-page.about .content ul{
   padding-bottom: 30px;
+}
+
+/* Responsive list */
+.bu {
+    font-size: 16px;
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    .bu {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bu {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bu {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bu {
+        font-size: 12px;
+        padding: 8px;
+    }
 }
